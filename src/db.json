@@ -4,8 +4,6 @@
         "model": "ASUS RTX 3090 White",
         "imageUrl": "https://desktop.bg/system/images/336667/normal/ASUSVCROGRTX3090O24W.png",
         "memory": "24GB",
-        "consumption": "850W",
-        "guarantee": "3 years",
         "price": "2100$"
     },
     {
@@ -13,8 +11,6 @@
         "model": "ASUS RTX 3080",
         "imageUrl": "https://desktop.bg/system/images/299664/normal/asus_rog_strix_geforce_rtx_3080_oc_v2.png",
         "memory": "10GB",
-        "consumption": "350W",
-        "guarantee": "3 years",
         "price": "1500$"
     },
     {
@@ -22,8 +18,13 @@
         "model": "MSI GeForce RTX 3070",
         "imageUrl": "https://desktop.bg/system/images/272086/normal/msi_geforce_rtx_3070_ventus_3x_oc.png",
         "memory": "8GB",
-        "consumption": "220W",
-        "guarantee": "3 years",
         "price": "1100$"
+    },
+    {
+        "chip": "Amd",
+        "model": "MSI Radeon RX Vega 64",
+        "imageUrl": "https://laptop.bg/system/images/152067/normal/msi_radeon_rx_vega_64_8g.png",
+        "memory": "8GB",
+        "price": "800$"
     }
 ]
