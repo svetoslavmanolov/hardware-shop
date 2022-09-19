@@ -1,28 +1,23 @@
 const router = require('express').Router();
-const videoCards = require('../db.json');
-const fs = require('fs/promises');
-const path = require('path');
+const videoCardController = require('../services/videoCardService');
 
 router.get('/create', (req, res) => {
     res.render('create');
 });
 
-router.post('/create', (req , res) => {
+router.post('/create', async (req, res) => {
     const videoCard = req.body;
 
-    if(videoCard.model.length < 2) {
+    if (videoCard.model.length < 2) {
         return res.status(400).send('Invalid model!');
     }
-
-    videoCards.push(videoCard);
-    fs.writeFile(path.resolve('src', 'db.json'), JSON.stringify(videoCards, '', 4), {encoding: 'utf-8'})
-    .then(() => {
+    
+    try {
+        await videoCardController.save(videoCard)
         res.redirect('/');
-    })
-    .catch(err => {
-        req.status(400).send(err);
-    })
-
-})
+    } catch (error) {
+        req.status(400).send(error)
+    }
+});
 
 module.exports = router;
