@@ -4,8 +4,7 @@ const videoCardController = require('./controllers/videoCardController');
 
 const router = express.Router();
 
-router.get('/', homeController.index);
-router.get('/about', homeController.about)
+router.use('/', homeController);
 router.use('/video', videoCardController);
 
 module.exports = router;
