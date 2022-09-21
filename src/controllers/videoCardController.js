@@ -11,7 +11,7 @@ router.post('/create', async (req, res) => {
     if (videoCard.model.length < 2) {
         return res.status(400).send('Invalid model!');
     }
-    
+
     try {
         await videoCardController.save(videoCard)
         res.redirect('/');
@@ -19,5 +19,9 @@ router.post('/create', async (req, res) => {
         req.status(400).send(error)
     }
 });
+
+router.get('/details/:id', (req, res) => {
+    res.render('details')
+})
 
 module.exports = router;
