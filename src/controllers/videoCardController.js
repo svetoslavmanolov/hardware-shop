@@ -21,7 +21,8 @@ router.post('/create', async (req, res) => {
 });
 
 router.get('/details/:id', (req, res) => {
-    res.render('details')
+    const videoCard = videoCardController.getOne(req.params.id);
+    res.render('details', { videoCard })
 })
 
 module.exports = router;
