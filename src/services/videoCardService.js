@@ -2,7 +2,8 @@ const fs = require('fs/promises');
 const videoCards = require('../db.json');
 const path = require('path');   
 
-exports.getOne = (videoCardId) => videoCards[videoCardId];
+//exports.getOne = (videoCardId) => videoCards[videoCardId];
+exports.getOne = (videoCardId) => videoCards.find(x => x.id === Number(videoCardId));
 
 exports.getAll = (search = '', fromInput, toInput) => {
     const from = Number(fromInput) || 0;
