@@ -46,5 +46,13 @@
         "imageUrl": "https://static.gigabyte.com/StaticFile/Image/Global/9ecc94bd8ddae32cd94d841ffd51bef8/Product/18791/png/500",
         "memory": "8Gb",
         "price": "550$"
+    },
+    {
+        "id": 6,
+        "chip": "Amd",
+        "model": "Radeon RX 570",
+        "imageUrl": "https://ardes.bg/uploads/original/sapphire-nitro-radeon-rx-570-8g-166902.jpg",
+        "memory": "8GB",
+        "price": "250$"
     }
 ]
