@@ -1,8 +1,15 @@
 const router = require('express').Router();
-const videoCards = require('../db.json');
+const videoCardService = require('../services/videoCardService');
 
 router.get('/', (req, res) => {
-    res.render('index', { videoCards });
+    let { search, from, to } = req.query;
+    const videoCards = videoCardService.getAll(search, from, to);
+
+
+    res.render('index', { videoCards, search, from, to });
+
+
+
 });
 
 router.get('/about', (req, res) => {

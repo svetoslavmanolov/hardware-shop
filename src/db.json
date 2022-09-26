@@ -5,7 +5,7 @@
         "model": "ASUS RTX 3090 White",
         "imageUrl": "https://desktop.bg/system/images/336667/normal/ASUSVCROGRTX3090O24W.png",
         "memory": "24GB",
-        "price": "2100$"
+        "price": "2100"
     },
     {
         "id": 1,
@@ -13,7 +13,7 @@
         "model": "ASUS RTX 3080",
         "imageUrl": "https://desktop.bg/system/images/299664/normal/asus_rog_strix_geforce_rtx_3080_oc_v2.png",
         "memory": "10GB",
-        "price": "1500$"
+        "price": "1500"
     },
     {
         "id": 2,
@@ -21,7 +21,7 @@
         "model": "MSI GeForce RTX 3070",
         "imageUrl": "https://desktop.bg/system/images/272086/normal/msi_geforce_rtx_3070_ventus_3x_oc.png",
         "memory": "8GB",
-        "price": "1100$"
+        "price": "1100"
     },
     {
         "id": 3,
@@ -29,7 +29,7 @@
         "model": "MSI Radeon RX Vega 64",
         "imageUrl": "https://laptop.bg/system/images/152067/normal/msi_radeon_rx_vega_64_8g.png",
         "memory": "8GB",
-        "price": "800$"
+        "price": "800"
     },
     {
         "id": 4,
@@ -37,7 +37,7 @@
         "model": "SAPPHIRE RX Vega56",
         "imageUrl": "https://desktop.bg/system/images/175213/normal/sapphire_nitro_radeon_rx_vega56_8g_hbm2.jpg",
         "memory": "8GB",
-        "price": "600$"
+        "price": "600"
     },
     {
         "id": 5,
@@ -45,7 +45,7 @@
         "model": "GeForce® GTX 1070 Ti",
         "imageUrl": "https://static.gigabyte.com/StaticFile/Image/Global/9ecc94bd8ddae32cd94d841ffd51bef8/Product/18791/png/500",
         "memory": "8Gb",
-        "price": "550$"
+        "price": "550"
     },
     {
         "id": 6,
@@ -53,6 +53,6 @@
         "model": "Radeon RX 570",
         "imageUrl": "https://ardes.bg/uploads/original/sapphire-nitro-radeon-rx-570-8g-166902.jpg",
         "memory": "8GB",
-        "price": "250$"
+        "price": "250"
     }
 ]
